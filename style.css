@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: deeppink;
+}
+
+.okenko{
+    background-color: khaki;
+    margin: 16px;
+    padding: 16px;
+}
