@@ -1,11 +1,38 @@
 body{
     margin: 0;
+    color: rgb(250, 161, 253);
     padding: 0;
-    background-color: deeppink;
+    background-color: rgb(119, 5, 5);
 }
 
 .okenko{
-    background-color: khaki;
+    background-color: rgb(209, 121, 69);
+    margin: 4px;
+    padding: 16px;
+}
+
+header{
+    background-color: aqua;
+    margin: 0;
+    padding: 4px;
+}
+
+nav{
+    margin: 0;
+    padding: 4px;
+}
+
+ul{
+    margin: 0;
+    padding: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nadpis{
     margin: 16px;
     padding: 16px;
 }
