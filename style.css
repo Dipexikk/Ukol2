@@ -1,20 +1,44 @@
 body{
     margin: 0;
-    color: rgb(250, 161, 253);
+    color: rgb(5, 0, 5)
     padding: 0;
-    background-color: rgb(119, 5, 5);
+    background-color: rgb(236, 243, 243);
 }
 
 .okenko{
-    background-color: rgb(209, 121, 69);
+    background-color: rgb(112, 219, 233);
     margin: 4px;
     padding: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
+button{
+    margin: 1px;
+    width: 75px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #fff;
+    -webkit-animation: glowing 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glowing {
+    from {
+      box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px rgb(7, 123, 231), 0 0 10px #0ff, 0 0 15px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      box-shadow: 0 0 10px #0551df, 0 0 10px #8400ff, 0 0 10px #504dff, 0 0 5px #4d68ff, 0 0 10px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
 header{
-    background-color: aqua;
-    margin: 0;
-    padding: 4px;
+    background-color: rgb(94, 173, 238);
+    margin: 4px;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 nav{
@@ -30,9 +54,10 @@ ul{
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(111, 119, 126);
 }
 
-.nadpis{
-    margin: 16px;
-    padding: 16px;
+h1{
+    margin: 4px;
+    color: rgb(70, 49, 73);
 }
